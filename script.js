@@ -3,8 +3,8 @@
 // })
 
 
-let resume = document.querySelectorAll(".resumepage");
-for(let elem of resume){
+let resumes = document.querySelectorAll(".resumepage");
+for(let elem of resumes){
     elem.addEventListener("click",()=>{
         window.open("https://drive.google.com/file/d/1ubmgGm7E0qQkaZ9VTvnM8BC4mgLAhrub/view?usp=sharing","_blank");
     })        
@@ -15,6 +15,7 @@ function resume(){
 }
 
 function resume2(){
+    console.log("Hello")
     window.open("https://drive.google.com/file/d/1ubmgGm7E0qQkaZ9VTvnM8BC4mgLAhrub/view?usp=sharing","_blank");
 }
 
