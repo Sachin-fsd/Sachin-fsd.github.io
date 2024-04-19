@@ -3,19 +3,19 @@
 // })
 
 
-// let resume = document.querySelectorAll(".resumepage");
-// for(let elem of resume){
-//     elem.addEventListener("click",()=>{
-//         window.open("https://drive.google.com/file/d/1q2-ZcMYcWeQoXFp150dEw8LNWl83Ovwo/view?usp=sharing","_blank");
-//     })        
-// }
+let resumes = document.querySelectorAll(".resumepage");
+for(let elem of resumes){
+    elem.addEventListener("click",()=>{
+        window.open("https://drive.google.com/file/d/1ubmgGm7E0qQkaZ9VTvnM8BC4mgLAhrub/view?usp=sharing","_blank");
+    })        
+}
 
 function resume(){
-    window.open("https://drive.google.com/file/d/1q2-ZcMYcWeQoXFp150dEw8LNWl83Ovwo/view?usp=sharing","_blank");
+    window.open("https://drive.google.com/file/d/1ubmgGm7E0qQkaZ9VTvnM8BC4mgLAhrub/view?usp=sharing","_blank");
 }
 
 function resume2(){
-    window.open("https://drive.google.com/file/d/1q2-ZcMYcWeQoXFp150dEw8LNWl83Ovwo/view?usp=sharing","_blank");
+    window.open("https://drive.google.com/file/d/1ubmgGm7E0qQkaZ9VTvnM8BC4mgLAhrub/view?usp=sharing","_blank");
 }
 
 let gitimages = document.querySelectorAll(".github img")
